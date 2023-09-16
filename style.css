@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav{
+padding-top: 50px;
+background-image: url(./blue_bg.png);
+height: 70px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.rightnav{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+
+
+}
+
+.rightnav img{
+    width: 120px;
+    height: 80px;
+
+}
+.a1{
+    margin: 10px;
+    text-decoration: none;
+
+
+    
+
+}
+.a1:hover{
+border-bottom: solid 3px #cd84f1;
+}
+.leftnav{
+    margin-top:1px ;
+
+}
+.a2{
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 13px 40px;
+    margin-right: 60px;
+
+
+
+}
+.sec1{
+    background-image: url(./blue_bg.png);
+    background-size: 1500px 710px;
+    height: 1320px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec1_div{
+    height:500px ;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.sec1_div h1{
+    font-size: 60px;
+    color: #4c4d4d;
+    margin-bottom: 20px;
+}
+
+.sec1_div p{
+    font-size: 30px;
+    color: #b4bab4;
+    margin-left: 70px;
+}
+.i1{
+    color:  #6f2c91;
+}
+.sec1_div2{
+    height:500px ;
+    width: 100%; 
+    position: relative;
+
+
+}
+.mask{
+    position: absolute;
+    z-index: 3;
+    height:500px ;
+    width: 50%;
+    left: 150px;
+    top: 60px;
+
+}
+.land{
+    position: absolute;
+    z-index: 2;
+    height:800px ;
+    width: 100%;
+
+
+
+
+}
+.clouds{
+    position: absolute;
+    z-index: 4;
+    top: 490px;
+    width: 500px;
+    left: 110px;
+}
+.waves{
+    position: absolute;
+    z-index: 5;
+    top: 650px;
+    right: 400px;
+    width: 1500px;
+
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height:200px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 700px;
+    top: 950px;
+
+}
+.div1 img{
+    height: 200px;
+    width: 20%;
+padding-bottom: 15px;
+
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 200px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    top: 1090px;
+    right: 190px;
+    z-index: 10;
+
+
+}
+.div2 img{
+    height: 200px;
+    width: 20%;
+padding-bottom: 15px;
+
+
+}
+.second{
+    position: absolute;
+    height: 550px;
+    width: 70%;
+    z-index: -1;
+    top:850px ;
+    left: 300px;
+}
+.div3{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    padding: 0px 200px 0px 200px;
+}
+.div3-1{
+
+}
+.div3-1 img{
+height: 350px;
+width: 100%;
+position: relative;
+z-index: -1;
+}
+.p4{
+    position: absolute;
+    z-index: 3;
+top: 140px;
+left: 300px;
+color: white;
+font-size: 25px;
+}
+.p5{
+    position: absolute;
+    z-index: 3;
+    top: 160px;
+    left: 300px;
+    color: white;
+font-size: 50px;
+}
+.div-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div3-2 h4{
+    text-align: center;
+}
+
+.div3-2 img{
+
+padding-bottom: 15px;
+
+
+}
+.sec2{
+    display: flex;
+    justify-content: space-between !important;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.left{
+    height: 300px;
+    position: absolute;
+top: 200px;
+position: absolute;
+left: 130px;
+
+
+
+}
+.mid{
+    height: 300px;
+position: absolute;
+left: 450px;
+
+
+}
+.right{
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+
+
+
+}
+.fa{
+    position: absolute;
+    left: 900px;
+    left: 450px;
+}
+.middd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middd h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec6{
+    margin-top: -70px;
+    background-image: url(./Group\ 1.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.rightside img {
+
+    height: 500px;
+    width: 34%;
+    position: absolute;
+    left: 760px;
+    top: 100px;
+
+    
+}
+.a9{
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px 40px;
+    position: absolute;
+    top: 370px;
+    margin-left: 20px;
+    padding-left: 60px;
+
+
+
+
+}
+.a10{
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px 40px;
+    padding-left: 60px;
+    position: absolute;
+    top: 370px;
+    margin-left: 20px;
+    left: 180px ;
+
+
+
+
+}
+.img3{
+    position:absolute ;
+    bottom: 10px;
+    right: 120px;
+}
+
+.img2{
+    position:absolute ;
+    
+    right: 120px;
+    bottom: 10px;
+}
+.i10{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.imge1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 440px;
+    left: 20px;
+
+}
+.imge2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 440px;
+    left: 80px;
+
+}
+.imge3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 440px;
+    left: 139px;
+
+}
+.i11{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 510px;
+
+}
+.a3{
+
+
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+@media only screen and (max-width: 1100px) {
+.sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+}
